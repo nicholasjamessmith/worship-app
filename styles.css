@@ -79,10 +79,10 @@ li {
 }
 
 .playlist-links a {
-  display: inline-flex;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   line-height: 0;
-  gap: 8px;
+  row-gap: 12px;
 }
 
 img {
